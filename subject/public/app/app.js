@@ -32,5 +32,5 @@ function Config($stateProvider, $urlRouterProvider) {
         $stateProvider.state(state);
     })
 
-    $urlRouterProvider.otherwise('/zergling')
+    $urlRouterProvider.otherwise('/')
 }
