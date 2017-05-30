@@ -138,19 +138,39 @@ qui seront affichés avec une boucle dans le template du component attaché à c
 Sinon tu peux aussi répondre en dessous de chaque question.
 
 a) Pourquoi utiliser $resource dans angular plutôt que $http ?
+
 b) C'est quoi la différence entre front-end et back-end en fait ?
+front-end: côté client ; back-end: côté serveur
+
 c) Pourquoi je peux pas utiliser document.getElementById dans NodeJS ?
+
 d) Pourquoi c'est très grave d'utiliser document.getElementById dans AngularJS ?
+
 e) C'est quoi la différence entre NodeJS et Javascript ?
+Node s'utilise côté serveur, Angular côté client pour mnipuler le Dom plus simplement.
+
 f) En quoi c'est utile d'utiliser npm ?
+Il permet de télécharger les modules de NodeJS
+
 g) A quoi ça sert une base de donnée ? Et mongoDB ?
+Une base de donnée sert à stocker des informations afin de pouvoir les réutiliser. mongoDB est un outil qui va nus permettre de créer une base de données.
+
 h) Est-il possible de faire des relations entre plusieurs collections ? Est-ce une bonne pratique ?
+Oui c'est possible.
+
 i) C'est quoi un document dans mongoDB ? et une collection au final ?
+une collection est un ensemble de documents.
+
 j) Quelle serai la requête qui me permettrai d'aller chercher dans 
     ma db "toto" dans la collection "tata" l'utilisateur ayant pour nom "titi" ?
+
 k) Est-il plus important de sécuriser le client ou le serveur ? Pourquoi ?
+Côté serveur.
+
 l) Pourquoi [1, 2, 3, () => "boom"][Number(true) + 2]() === "boom" ? Expliquez le plus précisément possible.
-m) Cite 3 directives angularjs.
+
+m) Cite 3 directives angularjs. 
+Ngcontroller, ng Repeat, ngModel
 
 
 

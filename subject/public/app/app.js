@@ -20,7 +20,7 @@ function Config($stateProvider, $urlRouterProvider) {
         {
             name: "home",
             url: "/",
-            component: "home"
+            component:"home"
         }
     ]
 states.forEach((state) => {
