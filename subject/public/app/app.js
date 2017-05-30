@@ -2,23 +2,20 @@
 
 const config = [
     "$stateProvider",
-    "$urlRouteProvider",
+    "$urlRouterProvider",
     Config
 ]
-
 angular
-    
-    .module('wildNoteApp', [
-        "ui.router"
-    ])
+.module('wildNoteApp', [
+    "ui.router"
+])
 
-    .config(config)
+.config(config)
 
-    // .factory("Hey", function() {
-    //     return {getConseil: () => "utilise les factory pour créer ta ressource !"}
-    // })
-
-function Config($stateProvider, $urlRouteProvider) {
+// .factory("Hey", function() {
+//     return {getConseil: () => "utilise les factory pour créer ta ressource !"}
+// })
+function Config($stateProvider, $urlRouterProvider) {
     const states = [
         {
             name: "home",
@@ -26,10 +23,9 @@ function Config($stateProvider, $urlRouteProvider) {
             component: "home"
         }
     ]
+states.forEach((state) => {
+    $stateProvider.state(state)
+})
 
-    states.forEach((state) => {
-        $stateProvider.state(state)
-    })
-
-    $urlRouterProvider.otherwise('/zergling')
+$urlRouterProvider.otherwise('/')
 }
